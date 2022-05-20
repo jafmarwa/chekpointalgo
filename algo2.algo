@@ -1,0 +1,44 @@
+ALGORITHM algorithm_checkpoint2
+VAR
+    tab1:=ARRAY_OF_INTEGER;
+    tab2:=ARRAY_OF_INTEGER;
+    i:INTEGER;
+    n:INTEGER;
+    Sum==0;
+BEGIN
+       FOR i FROM 1 to length tab1 step 1 do
+       FOR n FROM 1 to length tab2 step 1 do
+       if tab1[i] != tab2[n]
+       Sum=++
+       END_FOR
+       END_FOR
+       FOR n FROM 1 to length tab2 step 1 do
+       FOR n FROM 1 to length tab1 step 1 do
+       if tab2[n] != tab1[i]
+       Sum:=++
+       END_FOR
+       END_FOR
+       write(Sum)
+END
+ALGORITHM hash
+VAR
+Sum:= 0
+n:=INETGER
+i:= INETGER
+htab:HASH_TABLE1<ARRAY,INETGER>;
+HASH_TABLE2<ARRAY,INETGER>;
+BEGIN
+Read(array)
+FOR i FROM 0 to array.length 1 STEP 1 do
+IF (HASH_TABLE1.lookuap(HASH_TABLE2)=True)THEN
+Sum:= ++
+END_IF
+END_FOR
+BREAK;
+FOR n FROM 0 to array.length 1 STEP 1 do
+IF (HASH_TABLE2.lookuap(HASH_TABLE1)=True)THEN
+Sum:= ++
+END_IF
+END_FOR
+Write(Sum)
+END
