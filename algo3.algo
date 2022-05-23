@@ -1,0 +1,23 @@
+PROCEDURE Dot_product(vectors:INETGER)
+VAR
+    a:INETGER;
+    b:INETGER;
+    c:INETGER;
+    i:INETGER;
+    j:INETGER;
+    k:INETGER;
+    v1:INETGER
+    v2:INETGER
+BEGIN
+    Dot_product v1= a * i + b * j + c * k
+    write(Dot_product1) 
+    Dot_product v2= a * i + b * j + c * k
+    write(Dot_product2)
+END
+
+ALGORITHM algorithm_name
+VAR
+    set_declarations
+BEGIN
+    set_instructions
+END
